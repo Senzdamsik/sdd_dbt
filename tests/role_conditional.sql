@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('huskarl-data-playground', 'users_2_duplicate_id') }} WHERE role IS NULL AND (created_at IS NOT NULL OR updated_at IS NOT NULL)
