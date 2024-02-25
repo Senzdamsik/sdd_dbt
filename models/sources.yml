@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: huskarl-data-playground  
+    schema: L1_agree
+    tables:
+      - name: users_2_duplicate_id
+        identifier: users_2_duplicate_id
